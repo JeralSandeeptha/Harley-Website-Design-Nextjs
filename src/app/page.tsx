@@ -1,7 +1,7 @@
-import Image from "next/image";
+import LandingPage from "@/pages/landingpage/LandingPage";
 
 export default function Home() {
   return (
-    <h1>Hello Jeral</h1>
+    <LandingPage />
   );
 }
