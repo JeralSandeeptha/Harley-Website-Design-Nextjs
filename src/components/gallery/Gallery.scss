@@ -1,0 +1,71 @@
+@import '../../styles/breakpoints';
+@import '../../styles/fonts';
+@import '../../styles/values';
+@import '../../styles/colors';
+
+.gallery {
+    width: 100%;
+    min-height: 30vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    @media screen and (max-width: $mobile-portrait) {
+        grid-template-columns: 1fr;
+    }
+    
+    @media screen and (max-width: $laptops) {
+        min-height: 45vh;
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .gallery-image {
+
+    }
+
+    .box-special {
+        background-color: $black;
+        border: 15px solid $orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+
+        @media screen and (max-width: $mobile-portrait) {
+            padding: 50px;
+        }
+
+        .gallery-header {
+            color: $white;
+            font-family: $primary-font;
+            font-size: 2rem;
+            font-weight: 800;
+            text-align: center;
+
+            @media screen and (max-width: $tablet) {
+                font-size: 1.5rem;
+            }
+
+            @media screen and (max-width: $mobile-portrait) {
+                font-size: 2rem;
+            }
+        }
+
+        .gallery-button {
+            color: $white;
+            font-family: $primary-font;
+            background-color: $orange;
+            padding: 10px 15px;
+            border-radius: 0.25rem;
+
+            @media screen and (max-width: $tablet) {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
