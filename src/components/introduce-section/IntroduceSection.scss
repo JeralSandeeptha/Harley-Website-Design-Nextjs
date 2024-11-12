@@ -40,9 +40,12 @@
             justify-content: center;
             gap: 30px;
 
+            @media screen and (max-width: $laptops) {
+                gap: 10px;
+            }
+
             @media screen and (max-width: $mobile-portrait) {
                 padding: 15% 10%;
-                gap: 10px;
             }
 
             .intro-header {
