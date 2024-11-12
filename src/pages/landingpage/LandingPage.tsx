@@ -4,12 +4,14 @@ import React from 'react'
 import './LandingPage.scss';
 import Footer from '@/components/footer/Footer';
 import Gallery from '@/components/gallery/Gallery';
+import IntroduceSection from '@/components/introduce-section/IntroduceSection';
 
 const LandingPage = (props: LandingPageProps) => {
   return (
     <>
       <HeroDownSection />
       <Gallery />
+      <IntroduceSection />
       <Footer />
     </>
   )
