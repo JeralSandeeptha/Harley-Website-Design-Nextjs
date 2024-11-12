@@ -5,6 +5,7 @@ import './LandingPage.scss';
 import Footer from '@/components/footer/Footer';
 import Gallery from '@/components/gallery/Gallery';
 import IntroduceSection from '@/components/introduce-section/IntroduceSection';
+import MoreRoads from '@/components/moreroads/MoreRoads';
 
 const LandingPage = (props: LandingPageProps) => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = (props: LandingPageProps) => {
       <HeroDownSection />
       <Gallery />
       <IntroduceSection />
+      <MoreRoads />
       <Footer />
     </>
   )
