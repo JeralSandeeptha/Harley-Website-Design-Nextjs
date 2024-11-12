@@ -1,0 +1,25 @@
+@import '../../styles/breakpoints';
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/values';
+
+.footer {
+    width: 100%;
+    min-height: 15vh;
+    background-color: $gray;
+
+    .footer-inner {
+        max-width: $max-width;
+        margin: 0 auto;
+        min-height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .footer-title {
+            font-family: $third-font;
+            color: $white;
+            font-size: 12px;
+        }
+    }
+}
