@@ -4,3 +4,4 @@ export type GallerySectionComponentProps = {};
 export type HeroSectionComponentProps = {};
 export type IntroduceSectionComponentProps = {};
 export type MoreRoadsSectionComponentProps = {};
+export type FeaturesSectionComponentProps = {};

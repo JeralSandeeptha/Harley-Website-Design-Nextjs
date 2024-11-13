@@ -1,0 +1,82 @@
+@import '../../styles/breakpoints';
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/values';
+
+.features {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url('/images/five.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .overlay {
+        width: 100%;
+        min-height: 50vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background: liner-gradient(to right, red, blue);
+    }
+
+    .features-inner {
+        max-width: $max-width;
+        min-height: 50vh;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 5%;
+
+        @media screen and (max-width: $laptops) {
+            padding: 5%;
+            gap: 50px;
+        }
+
+        @media screen and (max-width: $mobile-portrait) {
+            grid-template-columns: 1fr;
+            gap: 50px;
+            padding: 15% 5%;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            .feature-logo {
+                width: 50px;
+            }
+            
+            .feature-title {
+                font-family: $primary-font;
+                color: $white;
+                font-size: 30px;
+                text-align: center;
+
+                @media screen and (max-width: $mobile-portrait) {
+                    font-size: 25px;
+                }
+
+                @media screen and (max-width: $mobile-portrait) {
+                    font-size: 23px;
+                }
+            }
+            
+            .feature-subtitle {
+                color: $orange;
+                font-family: $primary-font;
+                font-weight: bold;
+                font-size: 1.2rem;
+                text-align: center;
+
+                @media screen and (max-width: $mobile-portrait) {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

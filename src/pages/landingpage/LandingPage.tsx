@@ -7,6 +7,7 @@ import Gallery from '@/components/gallery/Gallery';
 import IntroduceSection from '@/components/introduce-section/IntroduceSection';
 import MoreRoads from '@/components/moreroads/MoreRoads';
 import Hero from '@/components/hero/Hero';
+import Features from '@/components/features/Features';
 
 const LandingPage = (props: LandingPageProps) => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = (props: LandingPageProps) => {
       <Hero />
       <HeroDownSection />
       <Gallery />
+      <Features />
       <IntroduceSection />
       <MoreRoads />
       <Footer />
