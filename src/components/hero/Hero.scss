@@ -1,0 +1,148 @@
+@import '../../styles/breakpoints';
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/values';
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgba(000,000,000, 85%), $dark_blue 80%);
+
+            @media screen and (max-width: $mobile-portrait) {
+                    min-height: 50vh;
+                }
+
+    .hero-inner {
+        max-width: $max-width;
+        margin: 0 auto;
+        min-height: 100vh;
+        background-color: transparent;
+        position: relative;
+
+        // @media screen and (max-width: 690px) {
+        //             padding: 0 5%;
+        //         }
+
+        .number-image {
+            position: absolute;
+            width: 600px;
+            margin-top: -50px;
+            top: 18%;
+            left: 15%;
+
+            @media screen and (max-width: $laptops) {
+                width: 500px;
+                top: 10%;
+                left: 25%;
+                margin-top: 0;
+            }
+            
+            @media screen and (max-width: $mobile-portrait) {
+                width: 400px;
+                top: 15%;
+                left: 20%;
+            }
+
+            @media screen and (max-width: 690px) {
+                left: 25%;
+                width: 300px;
+            }
+
+            @media screen and (max-width: 578px) {
+                left: 20%;
+            }
+
+            @media screen and (max-width: $mobile-sm) {
+                top: 30%;
+                left: 5%;
+            }
+        }
+
+        .hero-content {
+            padding-top: 120px;
+            position: relative;
+            min-height: 100vh;
+            background-color: transparent;
+
+                    @media screen and (max-width: $mobile-portrait) {
+                    min-height: 70vh;
+                }
+
+            @media screen and (max-width: $laptops) {
+                    padding-top: 70px;
+                }
+
+                @media screen and (max-width: $mobile) {
+                    padding-top: 150px;
+                }
+
+            .subheader {
+                color: $white;
+                font-family: $primary-font;
+                font-size: 25px;
+                text-align: center;
+                margin-bottom: 20px;
+
+                @media screen and (max-width: $mobile) {
+                    font-size: 1.2rem;
+                }
+            }
+            
+            .header {
+                font-family: $secondary-font;
+                font-size: 90px;
+                color: $white;
+                line-height: 90px;
+                text-align: center;
+
+                @media screen and (max-width: $laptops) {
+                    line-height: 60px;
+                    font-size: 60px;
+                }
+
+                @media screen and (max-width: 650px) {
+                    font-size: 60px;
+                }
+
+                @media screen and (max-width: $mobile-portrait) {
+                    font-size: 50px;
+                }
+
+                @media screen and (max-width: $mobile) {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+
+            .bike-image {
+                width: 900px;
+                margin-top: -140px;
+                z-index: 1000;
+
+                @media screen and (max-width: $laptops) {
+                    max-width: 600px;
+                    margin-top: -100px;
+                    position: absolute;
+                    left: 20%;
+                }
+                
+                @media screen and (max-width: $mobile-portrait) {
+                    left: 10%;
+                }
+                
+                @media screen and (max-width: 690px) {
+                    width: 500px;
+                }
+                
+                @media screen and (max-width: $mobile) {
+                    width: 400px;
+                    margin-top: -70px;
+                }
+                @media screen and (max-width: $mobile-sm) {
+                    width: 340px;
+                    left: 0;
+                }
+            }
+        }
+    }
+}

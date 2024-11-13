@@ -49,7 +49,7 @@
             justify-content: center;
             flex-direction: column;
             gap: 10px;
-            background: linear-gradient(to right, rgba(000,000,000, 85%), $dark_blue 60%, $light_gray);
+            background: linear-gradient(to right, rgba(000,000,000, 85%), $dark_blue 80%);
 
             @media screen and (max-width: $mobile-portrait) {
                 padding: 10% 5%;
