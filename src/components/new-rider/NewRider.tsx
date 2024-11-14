@@ -35,10 +35,10 @@ const NewRider = (props: NewRiderSectionComponentProps) => {
 
         <div className="new-rider-bottom">
           <h5 className="new-rider-para">
-            Never ridden before? Don't sweat it. The Harley-Davidson® Riding
-            Academy New Rider Course is designed to get you comfortable on a
-            bike <br />
-            and give you the skills you need to ride with confidence.Offered at
+            Never ridden before? Don&apos;t sweat it. The Harley-Davidson®
+            Riding Academy New Rider Course is designed to get you comfortable
+            on a bike <br />
+            and give you the skills you need to ride with confidence. Offered at
             select H-D® dealers, the New Rider Course provides you with expert
             <br />
             guidance from H-D certified coaches.
