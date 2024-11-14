@@ -34,7 +34,7 @@ const Styling = (props: StylingSectionComponentProps) => {
 
         <div className="styling-bottom">
           <h5 className="styling-para">
-            It’s the poster bike of the anti-chrome movement. You’ve got a black
+            It is the poster bike of the anti-chrome movement. You have got a black
             powder-coated 883cc engine with black rocker covers. Black on <br />
             the throwback round air cleaner cover. Chopped fenders, to show off
             a little rubber. And black front forks with gators to add a little
