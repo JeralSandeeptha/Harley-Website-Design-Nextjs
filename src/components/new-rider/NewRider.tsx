@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import bikeImage from "../../assets/images/twelve.png";
 import logo from "../../assets/images/logo.png";
+import Link from "next/link";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const NewRider = (props: NewRiderSectionComponentProps) => {
@@ -21,9 +22,9 @@ const NewRider = (props: NewRiderSectionComponentProps) => {
                 New Rider <br /> Course <br />
                 Overview
               </h5>
-              <a href="/" className="new-rider-button">
+              <Link href="/" className="new-rider-button">
                 view more
-              </a>
+              </Link>
             </div>
           </div>
 

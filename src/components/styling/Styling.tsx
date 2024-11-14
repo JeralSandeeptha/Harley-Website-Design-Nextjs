@@ -4,6 +4,7 @@ import bikeImage from "../../assets/images/six.png";
 import logo from "../../assets/images/logo.png";
 import Image from "next/image";
 import './Styling.scss';
+import Link from "next/link";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Styling = (props: StylingSectionComponentProps) => {
@@ -24,9 +25,9 @@ const Styling = (props: StylingSectionComponentProps) => {
                 A Great Leap <br /> Forward In The <br />
                 Dark Arts
               </h5>
-              <a href="/" className="styling-button">
+              <Link href="/" className="styling-button">
                 view more
-              </a>
+              </Link>
             </div>
           </div>
         </div>

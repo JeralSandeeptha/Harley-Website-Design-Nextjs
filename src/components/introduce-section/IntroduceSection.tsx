@@ -5,6 +5,7 @@ import nineImage from '../../assets/images/nine.png';
 import sevenImage from "../../assets/images/seven.png";
 import thirteenImage from "../../assets/images/thirteen.png";
 import './IntroduceSection.scss';
+import Link from 'next/link';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const IntroduceSection = (props: IntroduceSectionComponentProps) => {
@@ -21,9 +22,9 @@ const IntroduceSection = (props: IntroduceSectionComponentProps) => {
             Fast on the straights, agile in the turns. Take a ride. It will blow
             you away.
           </h5>
-          <a href="/" className="intro-button">
+          <Link href="/" className="intro-button">
             read more
-          </a>
+          </Link>
         </div>
         <div className="intro-right-bottom">
           <Image src={thirteenImage} alt="image" className="intro-image" />

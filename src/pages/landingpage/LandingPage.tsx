@@ -11,6 +11,7 @@ import Features from '@/components/features/Features';
 import NewRider from '@/components/new-rider/NewRider';
 import Styling from '@/components/styling/Styling';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const LandingPage = (props: LandingPageProps) => {
   return (
     <>
