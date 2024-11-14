@@ -6,3 +6,4 @@ export type IntroduceSectionComponentProps = {};
 export type MoreRoadsSectionComponentProps = {};
 export type FeaturesSectionComponentProps = {};
 export type NewRiderSectionComponentProps = {};
+export type StylingSectionComponentProps = {};

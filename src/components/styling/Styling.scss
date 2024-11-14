@@ -1,0 +1,149 @@
+@import "../../styles/breakpoints";
+@import "../../styles/colors";
+@import "../../styles/values";
+@import "../../styles/fonts";
+
+.styling {
+  width: 100%;
+  min-height: 80vh;
+  background: linear-gradient(
+    to right,
+    $dark_blue 50%,
+    rgba(000, 000, 000, 85%)
+  );
+
+  .overlay {
+    min-height: 80vh;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+
+    .logo {
+      width: 50%;
+      position: absolute;
+      left: 25%;
+      top: 18%;
+      opacity: 0.3;
+
+      @media screen and (max-width: $mobile) {
+                    top: 30%;
+            }
+    }
+  }
+
+  .styling-inner {
+    background-color: transparent;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 5%;
+    position: relative;
+    min-height: 80vh;
+
+    @media screen and (max-width: $mobile) {
+                    padding: 10% 5%;
+            }
+
+    .styling-top {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 70vh;
+      background-color: transparent;
+              gap: 30px;
+
+      @media screen and (max-width: $tablet) {
+                gap: 30px;
+            }
+
+       @media screen and (max-width: $mobile-portrait) {
+              grid-template-columns: 1fr;
+            }
+
+      .styling-left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .styling-container {
+          position: relative;
+          z-index: 20;
+
+          .styling-title {
+            color: $white;
+            font-family: $secondary-font;
+            font-size: 3rem;
+            line-height: 70px;
+
+            @media screen and (max-width: $tablet) {
+                font-size: 3rem;
+                line-height: 50px;
+            }
+          }
+
+          .styling-subtitle {
+            color: $white;
+            font-family: $primary-font;
+            font-size: 1.5rem;
+          }
+
+          .styling-button {
+            color: $white;
+            font-family: $primary-font;
+            background-color: $orange;
+            padding: 10px 15px;
+            margin-top: 50px;
+            border-radius: 0.25rem;
+            display: inline-block;
+
+            @media screen and (max-width: $tablet) {
+              font-size: 0.8rem;
+              margin-top: 30px;
+            }
+          }
+        }
+      }
+
+      .styling-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 19;
+
+        @media screen and (max-width: $mobile-portrait) {
+                order: 2;
+            }
+
+        .bike-image {
+          width: 400px;
+
+          @media screen and (max-width: $mobile-portrait) {
+                width: 100%;
+                order: 2;
+            }
+        }
+      }
+    }
+
+    .styling-bottom {
+      min-height: 10vh;
+      position: relative;
+      z-index: 20;
+
+      @media screen and (max-width: $mobile-portrait) {
+              padding-top: 30px;
+            }
+
+      .styling-para {
+        text-align: center;
+        color: $white;
+        font-size: 0.9rem;
+        font-family: $third-font;
+        font-style: italic;
+
+        @media screen and (max-width: $tablet) {
+              font-size: 0.8rem;
+            }
+      }
+    }
+  }
+}
