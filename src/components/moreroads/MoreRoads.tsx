@@ -5,6 +5,7 @@ import Image from 'next/image';
 import gangImage from '../../assets/images/gang.jpeg';
 import seatImage from '../../assets/images/one.png';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const MoreRoads = (props: MoreRoadsSectionComponentProps) => {
   return (
     <div className="more">

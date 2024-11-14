@@ -6,6 +6,7 @@ import sevenImage from "../../assets/images/seven.png";
 import thirteenImage from "../../assets/images/thirteen.png";
 import './IntroduceSection.scss';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const IntroduceSection = (props: IntroduceSectionComponentProps) => {
   return (
     <div className="introduce">

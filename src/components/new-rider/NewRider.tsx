@@ -5,6 +5,7 @@ import React from "react";
 import bikeImage from "../../assets/images/twelve.png";
 import logo from "../../assets/images/logo.png";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const NewRider = (props: NewRiderSectionComponentProps) => {
   return (
     <div className="new-rider">

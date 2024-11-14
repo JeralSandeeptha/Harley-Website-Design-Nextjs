@@ -5,6 +5,7 @@ import logo from "../../assets/images/logo.png";
 import Image from "next/image";
 import './Styling.scss';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Styling = (props: StylingSectionComponentProps) => {
   return (
     <div className="styling">

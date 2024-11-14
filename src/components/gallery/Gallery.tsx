@@ -7,6 +7,7 @@ import tenImage from "../../assets/images/two.jpeg";
 import elevenImage from "../../assets/images/three.png";
 import Image from "next/image";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Gallery = (props: GallerySectionComponentProps) => {
   return (
     <div className="gallery">

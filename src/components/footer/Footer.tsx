@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.scss';
 import { FooterSectionComponentProps } from '@/types/component.types';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Footer = (props: FooterSectionComponentProps) => {
   return (
     <div className="footer">

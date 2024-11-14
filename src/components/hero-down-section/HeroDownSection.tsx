@@ -5,6 +5,7 @@ import Image from 'next/image';
 import bikeLogo from '../../assets/icons/image-removebg-preview-3.png';
 import cartLogo from '../../assets/icons/image-removebg-preview-4.png';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const HeroDownSection = (props: HeroDownSectionComponentProps) => {
   return (
     <div className="hero-down">

@@ -5,6 +5,7 @@ import number from "../../assets/images/number.png";
 import bike from "../../assets/images/bike.png";
 import "./Hero.scss";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Hero = (props: HeroSectionComponentProps) => {
   return (
     <div className="hero">

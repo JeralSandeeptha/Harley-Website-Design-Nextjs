@@ -7,6 +7,7 @@ import two from '../../assets/icons/image-removebg-preview-2.png';
 import three from '../../assets/icons/image-removebg-preview-3.png';
 import preview from "../../assets/icons/image-removebg-preview.png";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Features = (props: FeaturesSectionComponentProps) => {
   return (
     <div className="features">
