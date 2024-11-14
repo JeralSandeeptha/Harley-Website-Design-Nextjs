@@ -34,16 +34,13 @@ const NewRider = (props: NewRiderSectionComponentProps) => {
         </div>
 
         <div className="new-rider-bottom">
-          {/* <h5 className="new-rider-para">
-            Never ridden before? Don&apos;t sweat it. The Harley-Davidson&reg;
-            Riding Academy New Rider Course is designed to get you comfortable
-            on a bike <br />
-            and give you the skills you need to ride with confidence. Offered at
-            select H-D&reg; dealers, the New Rider Course provides you with
-            expert
-            <br />
-            guidance from H-D certified coaches.
-          </h5> */}
+          It is the poster bike of the anti-chrome movement. You have got a
+          black powder-coated 883cc engine with black rocker covers. Black on{" "}
+          <br />
+          the throwback round air cleaner cover. Chopped fenders, to show off a
+          little rubber. And black front forks with gators to add a little
+          <br />
+          old-school nostalgia.
         </div>
       </div>
     </div>
