@@ -24,6 +24,10 @@
       left: 25%;
       top: 18%;
       opacity: 0.3;
+
+      @media screen and (max-width: $mobile) {
+                    top: 30%;
+            }
     }
   }
 
@@ -35,11 +39,20 @@
     position: relative;
     min-height: 80vh;
 
+    @media screen and (max-width: $mobile) {
+                    padding: 10% 5%;
+            }
+
     .new-rider-top {
       display: grid;
       grid-template-columns: 1fr 1fr;
       min-height: 70vh;
       background-color: transparent;
+
+       @media screen and (max-width: $mobile-portrait) {
+              grid-template-columns: 1fr;
+              gap: 30px;
+            }
 
       .new-rider-left {
         display: flex;
@@ -49,11 +62,17 @@
         .new-rider-container {
           position: relative;
           z-index: 20;
+
           .new-rider-title {
             color: $white;
             font-family: $secondary-font;
             font-size: 4rem;
             line-height: 70px;
+
+            @media screen and (max-width: $tablet) {
+                font-size: 3rem;
+                line-height: 50px;
+            }
           }
 
           .new-rider-subtitle {
@@ -73,6 +92,7 @@
 
             @media screen and (max-width: $tablet) {
               font-size: 0.8rem;
+              margin-top: 30px;
             }
           }
         }
@@ -86,6 +106,10 @@
 
         .bike-image {
           width: 400px;
+
+          @media screen and (max-width: $mobile-portrait) {
+                width: 100%;
+            }
         }
       }
     }
@@ -95,12 +119,20 @@
       position: relative;
       z-index: 20;
 
+      @media screen and (max-width: $mobile-portrait) {
+              padding-top: 30px;
+            }
+
       .new-rider-para {
         text-align: center;
         color: $white;
         font-size: 0.9rem;
         font-family: $third-font;
         font-style: italic;
+
+        @media screen and (max-width: $tablet) {
+              font-size: 0.8rem;
+            }
       }
     }
   }
