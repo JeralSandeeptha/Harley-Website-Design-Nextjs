@@ -34,13 +34,15 @@ const NewRider = (props: NewRiderSectionComponentProps) => {
         </div>
 
         <div className="new-rider-bottom">
-          It is the poster bike of the anti-chrome movement. You have got a
-          black powder-coated 883cc engine with black rocker covers. Black on{" "}
-          <br />
-          the throwback round air cleaner cover. Chopped fenders, to show off a
-          little rubber. And black front forks with gators to add a little
-          <br />
-          old-school nostalgia.
+          <h5 className="new-rider-para">
+            It is the poster bike of the anti-chrome movement. You have got a
+            black powder-coated 883cc engine with black rocker covers. Black on{" "}
+            <br />
+            the throwback round air cleaner cover. Chopped fenders, to show off
+            a little rubber. And black front forks with gators to add a little
+            <br />
+            old-school nostalgia.
+          </h5>
         </div>
       </div>
     </div>
