@@ -34,8 +34,7 @@ const NewRider = (props: NewRiderSectionComponentProps) => {
         </div>
 
         <div className="new-rider-bottom">
-          /* eslint-disable react/no-unescaped-entities */
-          <h5 className="new-rider-para">
+          {/* <h5 className="new-rider-para">
             Never ridden before? Don&apos;t sweat it. The Harley-Davidson&reg;
             Riding Academy New Rider Course is designed to get you comfortable
             on a bike <br />
@@ -44,8 +43,7 @@ const NewRider = (props: NewRiderSectionComponentProps) => {
             expert
             <br />
             guidance from H-D certified coaches.
-          </h5>
-          /* eslint-enable react/no-unescaped-entities */
+          </h5> */}
         </div>
       </div>
     </div>
