@@ -1,0 +1,107 @@
+@import "../../styles/breakpoints";
+@import "../../styles/colors";
+@import "../../styles/values";
+@import "../../styles/fonts";
+
+.new-rider {
+  width: 100%;
+  min-height: 80vh;
+  background: linear-gradient(
+    to right,
+    $dark_blue 50%,
+    rgba(000, 000, 000, 85%)
+  );
+
+  .overlay {
+    min-height: 80vh;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+
+    .logo {
+      width: 50%;
+      position: absolute;
+      left: 25%;
+      top: 18%;
+      opacity: 0.3;
+    }
+  }
+
+  .new-rider-inner {
+    background-color: transparent;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 5%;
+    position: relative;
+    min-height: 80vh;
+
+    .new-rider-top {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 70vh;
+      background-color: transparent;
+
+      .new-rider-left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .new-rider-container {
+          position: relative;
+          z-index: 20;
+          .new-rider-title {
+            color: $white;
+            font-family: $secondary-font;
+            font-size: 4rem;
+            line-height: 70px;
+          }
+
+          .new-rider-subtitle {
+            color: $white;
+            font-family: $primary-font;
+            font-size: 1.5rem;
+          }
+
+          .new-rider-button {
+            color: $white;
+            font-family: $primary-font;
+            background-color: $orange;
+            padding: 10px 15px;
+            margin-top: 50px;
+            border-radius: 0.25rem;
+            display: inline-block;
+
+            @media screen and (max-width: $tablet) {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .new-rider-right {
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 19;
+
+        .bike-image {
+          width: 400px;
+        }
+      }
+    }
+
+    .new-rider-bottom {
+      min-height: 10vh;
+      position: relative;
+      z-index: 20;
+
+      .new-rider-para {
+        text-align: center;
+        color: $white;
+        font-size: 0.9rem;
+        font-family: $third-font;
+        font-style: italic;
+      }
+    }
+  }
+}

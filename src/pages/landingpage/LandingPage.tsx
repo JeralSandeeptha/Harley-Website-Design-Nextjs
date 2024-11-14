@@ -8,12 +8,14 @@ import IntroduceSection from '@/components/introduce-section/IntroduceSection';
 import MoreRoads from '@/components/moreroads/MoreRoads';
 import Hero from '@/components/hero/Hero';
 import Features from '@/components/features/Features';
+import NewRider from '@/components/new-rider/NewRider';
 
 const LandingPage = (props: LandingPageProps) => {
   return (
     <>
       <Hero />
       <HeroDownSection />
+      <NewRider />
       <Gallery />
       <Features />
       <IntroduceSection />
